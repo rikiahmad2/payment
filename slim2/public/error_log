@@ -1,0 +1,8 @@
+[01-Nov-2020 11:41:32 UTC] PHP Fatal error:  Uncaught Slim\Exception\HttpNotFoundException: Not found. in /home1/fastttuq/public_html/dashboard/slimapp/vendor/slim/slim/Slim/Middleware/RoutingMiddleware.php:93
+Stack trace:
+#0 /home1/fastttuq/public_html/dashboard/slimapp/vendor/slim/slim/Slim/Routing/RouteRunner.php(72): Slim\Middleware\RoutingMiddleware->performRouting(Object(Slim\Psr7\Request))
+#1 /home1/fastttuq/public_html/dashboard/slimapp/public/index.php(120): Slim\Routing\RouteRunner->handle(Object(Slim\Psr7\Request))
+#2 /home1/fastttuq/public_html/dashboard/slimapp/vendor/slim/slim/Slim/MiddlewareDispatcher.php(283): {closure}(Object(Slim\Psr7\Request), Object(Slim\Routing\RouteRunner))
+#3 /home1/fastttuq/public_html/dashboard/slimapp/vendor/slim/slim/Slim/MiddlewareDispatcher.php(81): class@anonymous->handle(Object(Slim\Psr7\Request))
+#4 /home1/fastttuq/public_html/dashboard/slimapp/vendor/slim/slim/Slim/App.php(215): Slim\MiddlewareDispatcher->handle(Object(Slim\Psr7\Request))
+#5 /home1/fastttuq/public_html/dashboard/slimapp/vendor/slim/slim/ in /home1/fastttuq/public_html/dashboard/slimapp/vendor/slim/slim/Slim/Middleware/RoutingMiddleware.php on line 93
